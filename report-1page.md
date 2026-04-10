@@ -30,4 +30,4 @@
 - Mitigation: Triển khai MFA, phân quyền rõ ràng theo vai trò, ghi log thay đổi điểm, yêu cầu phê duyệt khi chỉnh sửa
 
 ### 4. Kết luận ngắn
-(4-6 dòng: em học được gì từ bài lab này, phần nào khó nhất, điều gì cần chú ý khi phân tích một sự cố an toàn thông tin.)
+Qua bài lab này, em hiểu rõ hơn cách áp dụng mô hình CIA vào một hệ thống thực tế là hệ thống lưu điểm. Trong ba yếu tố, em ưu tiên Integrity vì dữ liệu điểm số cần chính xác và không bị sửa trái phép. Nếu tính toàn vẹn không được đảm bảo thì sẽ ảnh hưởng trực tiếp đến sinh viên và uy tín của nhà trường. Ngoài ra, em cũng nhận thấy việc phân quyền, ghi log và xác thực mạnh là các biện pháp rất quan trọng để giảm rủi ro bảo mật.
