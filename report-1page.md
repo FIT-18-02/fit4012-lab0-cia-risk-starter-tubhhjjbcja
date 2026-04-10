@@ -15,18 +15,19 @@
 
 ### 3. Kết quả chính
 **Assets:**
-- 
-- 
+- Bảng điểm sinh viên
+- Tài khoản giảng viên
+- Cơ sở dữ liệu hệ thống
 
 **CIA mapping:**
-- Sự cố A -> 
-- Sự cố B -> 
-- Sự cố C -> 
+- Sự cố A -> Availability
+- Sự cố B -> Integrity
+- Sự cố C -> Confidentiality
 
 **Phân tích sự cố B:**
-- Threat: 
-- Vulnerability: 
-- Mitigation: 
+- Threat: Người dùng trái phép hoặc người nội bộ chỉnh sửa điểm không đúng quyền
+- Vulnerability: Mật khẩu yếu, không có xác thực đa yếu tố (MFA), phân quyền chưa rõ ràng, không có log theo dõi
+- Mitigation: Triển khai MFA, phân quyền rõ ràng theo vai trò, ghi log thay đổi điểm, yêu cầu phê duyệt khi chỉnh sửa
 
 ### 4. Kết luận ngắn
 (4-6 dòng: em học được gì từ bài lab này, phần nào khó nhất, điều gì cần chú ý khi phân tích một sự cố an toàn thông tin.)
